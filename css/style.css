@@ -1,0 +1,31 @@
+* {margin:0;padding:0;}
+body {text-align: center;}
+
+div {
+	background: #000;
+	border: 3px solid #111;
+	border-radius: 50%;
+	display: inline-block;
+	transition: all .3s;
+	height: 0;
+}
+
+.face {
+	width: 30vh;
+	height: 30vh;
+	background: #fff;
+}
+
+.eyes {
+	height: 25%;
+	width: 25%;
+	margin: 20% 5% 5% 5%;
+}
+
+.mouth {
+	width: 70%;	
+}
+
+.face:hover .mouth {
+	height: 20%;
+}
